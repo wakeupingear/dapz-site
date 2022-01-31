@@ -1,13 +1,14 @@
 import { React, useState } from 'react';
 
-import "../Home.css";
 import Ad from './Ad';
 
 export default function Home() {
     const [isAdsOn, setAds] = useState(true);
 
     return <div id="homePage">
-        <img id="profilePic" className='dropShadow' src='https://yt3.ggpht.com/ytc/AKedOLQivVkMnUMPaXfFRFL6BbuMozHKFw_OislHuIhBbw=s88-c-k-c0x00ffffff-no-rj' alt="God"></img>
+        <a id="profilePic" className='dropShadow' href="https://willfarhat.com/projects" target="_blank" rel='noreferrer'>
+            <img src='https://yt3.ggpht.com/ytc/AKedOLQivVkMnUMPaXfFRFL6BbuMozHKFw_OislHuIhBbw=s88-c-k-c0x00ffffff-no-rj' alt="God"></img>
+        </a>
         <div>
             <div className="leftText">
                 <h1>I AM DAPZ</h1>
@@ -16,6 +17,6 @@ export default function Home() {
                 <h2>This is for my main Channel</h2>
             </div>
         </div>
-        <Ad/>
+        <Ad />
     </div>;
 }

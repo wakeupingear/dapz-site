@@ -10,8 +10,10 @@ export default function NavBar() {
         <NavItem path="/patreon">Patreon</NavItem>
         <NavItem path="/merch">Merch</NavItem>
         <NavItem path="/extra">Extra</NavItem>
-        <NavItem path="/patreon">Contact</NavItem>
+        <NavItem path="/contact">Contact</NavItem>
         <NavItem path="/about">About</NavItem>
-        {(isAdsOn) ? <NavItem path="/ads" className="navRight">Turn Off Ads</NavItem> : null}
+        <NavItem path="/ads" className="navRight">
+            {(!localStorage.getItem("adsDisabled")) ? "Turn off Ads" : "Turn on Ads"}
+        </NavItem>
     </div>;
 }

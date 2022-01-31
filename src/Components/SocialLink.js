@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faTwitter, faYoutube, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faTwitter, faYoutube, faDiscord, faTwitch } from '@fortawesome/free-brands-svg-icons'
 
 export default function SocialLink(props) {
     const linkMap = {
@@ -9,6 +9,7 @@ export default function SocialLink(props) {
         "Twitter": faTwitter,
         "YouTube": faYoutube,
         "Discord": faDiscord,
+        "Twitch": faTwitch
     }
 
     return <a className="socialLink" target="_blank" href={props.link} rel="noreferrer">
