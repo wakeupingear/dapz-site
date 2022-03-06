@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dapz-site/static/css/main.df47bc2f.css",
-    "main.js": "/dapz-site/static/js/main.12a08e64.js",
-    "static/js/787.b4749cf4.chunk.js": "/dapz-site/static/js/787.b4749cf4.chunk.js",
-    "index.html": "/dapz-site/index.html",
-    "main.df47bc2f.css.map": "/dapz-site/static/css/main.df47bc2f.css.map",
-    "main.12a08e64.js.map": "/dapz-site/static/js/main.12a08e64.js.map",
-    "787.b4749cf4.chunk.js.map": "/dapz-site/static/js/787.b4749cf4.chunk.js.map"
+    "main.css": "/static/css/main.df47bc2f.css",
+    "main.js": "/static/js/main.4925cee0.js",
+    "static/js/787.b4749cf4.chunk.js": "/static/js/787.b4749cf4.chunk.js",
+    "index.html": "/index.html",
+    "main.df47bc2f.css.map": "/static/css/main.df47bc2f.css.map",
+    "main.4925cee0.js.map": "/static/js/main.4925cee0.js.map",
+    "787.b4749cf4.chunk.js.map": "/static/js/787.b4749cf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df47bc2f.css",
-    "static/js/main.12a08e64.js"
+    "static/js/main.4925cee0.js"
   ]
 }
