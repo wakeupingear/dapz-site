@@ -23,7 +23,7 @@
       // Otherwise, leave pathSegmentsToKeep as 0.
       var l = window.location;
       var slices = l.pathname.split('/');
-      console.log(slices)
+      alert(slices.length)
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         slices.slice(0, slices.length-2).join('/')
