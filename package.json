@@ -1,7 +1,7 @@
 {
   "name": "dapz-site",
   "version": "0.1.0",
-  "homepage": "https://willf668.github.io/dapz-site",
+  "homepage": "https://dapuma.com",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
