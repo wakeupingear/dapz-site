@@ -20,7 +20,7 @@ export default function SocialLink(props) {
     }
     else {
         return <a className={classes} target="_blank" href={props.link} rel="noreferrer">
-            <FontAwesomeIcon icon={linkMap[props.name]} />
+            <FontAwesomeIcon icon={linkMap[props.name]} className="icon"/>
         </a>;
     }
 }

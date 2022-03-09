@@ -2,6 +2,11 @@
   --c_dark: #282c34;
   --c_light: white;
   --c_offLight: aliceblue;
+  font-size: min(0.75rem, 2vw);
+}
+
+.socialLink, .navItem {
+  transition: 0.3s;
 }
 
 a {
@@ -9,15 +14,13 @@ a {
 }
 
 h1 {
-  font-size: 30px;
-  font-size: 8vw;
-  margin: 0.5vh;
+  font-size: 12rem;
+  margin: 1rem;
 }
 
 h2 {
-  font-size: 30px;
-  font-size: 2vw;
-  margin: 1vh;
+  font-size: 4rem;
+  margin:0.5rem;
 }
 
 .leftText {
@@ -47,7 +50,7 @@ h2 {
   flex-direction: row;
   background: url(https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
   width: 100%;
-  height: min(20%,10vw);
+  height: 15rem;
   overflow: visible;
   justify-content: center;
   align-items: flex-start;
@@ -62,10 +65,10 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: max(5vh, 6vw);
+  font-size: 8rem;
   padding: 1vw;
   padding-top: 0;
-  border-radius: 0 0 2vw 2vw;
+  border-radius: 0 0 3rem 3rem;
   height: min-content;
   width: 30%;
   color: var(--c_light);
@@ -93,7 +96,6 @@ h2 {
   height: 50%;
   max-height: 50%;
   aspect-ratio: 1 / 1;
-  font-size: max(3vh, 3vw);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -109,9 +111,17 @@ h2 {
   opacity: 0.5;
 }
 
+#profilePic{
+  height:70%;
+}
+
+.icon {
+  font-size: 4.5rem;
+}
+
 .socialLinkCorner{
   background-color: rgba(0, 0, 0, 0.0);
-  border-radius: 0 2vw 0 0;
+  border-radius: 0 3rem 0 0;
   box-shadow: 1vw -2vh 1vw 0vw var(--c_dark);
   width:50%;
   z-index: -1;
@@ -122,7 +132,7 @@ h2 {
 }
 
 .socialLast {
-  border-radius: 0 0 0 2vw;
+  border-radius: 0 0 0 3rem;
 }
 
 #navBar {
@@ -132,7 +142,7 @@ h2 {
   align-items: center;
   align-self: flex-end;
   width: 100%;
-  height: 7%;
+  height: 6rem;
   background-color: var(--c_offLight);
   z-index: 1;
 }
@@ -141,7 +151,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: max(1.2vw, 1vh);
+  font-size: 2rem;
   background-color: var(--c_offLight);
   height: 100%;
   padding: 0 1vw 0 1vw;
@@ -166,8 +176,9 @@ h2 {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 2em;
-  border-radius: 0 2em 0 0;
+  padding: 2rem;
+  font-size: 1.2rem;
+  border-radius: 0 2rem 0 0;
   z-index: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
